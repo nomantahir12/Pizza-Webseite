@@ -1,0 +1,57 @@
+.open-time-header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .opening-hours {
+    
+    border-collapse: collapse;
+    margin-top: 10px !important;
+    
+  }
+  th, td {
+    text-align: center;
+  }
+  .opening-hours th{
+    align-items: center;
+    align-content: center;
+  }
+  
+  .opening-hours th, .opening-hours td {
+    padding: 10px 0px;
+    border: 1px solid #ccc;
+  }
+  
+  .opening-hours th {
+    background-color: #f2f2f2;
+  }
+  
+  .opening-hours td:first-child {
+    font-weight: bold;
+  }
+  
+
+  .table-outer-div{
+    margin-top: 100px;
+  }
+  .cont h1{
+    justify-content: center;
+    
+    display: flex;
+    color: #ffc107;
+    margin-top: 80px;
+  }
+  .cont{
+    display: flex;
+    justify-content: center;
+  }
+
+  .highlight {
+    font-weight: bold;
+    color: green;
+    /* Add any other styles to highlight the row */
+  }
+  
+  
+

@@ -1,0 +1,147 @@
+/* CSS-Styling für die Speisekarte */
+  .speise-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  } 
+  
+  .bg-speisekarte{
+    background: linear-gradient(#00000083, #00000083, #00000083 ), url(../images/speisekarte.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+  }
+ 
+  
+  .category {
+    margin-bottom: 20px;
+    width: 600px;
+
+  }
+  .category p{
+    color: rgb(0, 0, 0);
+  }
+  
+  /* h2 {
+    font-size: 20px;
+  } */
+  
+  .dish {
+    margin-bottom: 5px;
+  }
+  
+  .price {
+    float: right;
+  }
+
+  .speise-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .speisekarte_list li{
+    width: 100%;
+    padding: 0px 5px;
+    position: relative; 
+  }
+
+  .speisekarte_list {
+    padding-left: 0px; 
+  }
+
+  .speisekarte_list li:hover{
+    background-color:  #ffc1071f;
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .speisekarte_list span{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    font-size: 18px;
+    color: orange;
+    font-weight: bold;
+    letter-spacing: 8px;
+  }
+
+  .speisekarte_list h2{
+    font-weight: bold;
+    font-size: 24px;
+    color: orange;
+    padding-left: 0px;
+  }
+  .speisekarte_list p{
+    font-size: 15px;
+    word-spacing: 6px;
+    color:green;
+    font-weight: bold;
+    padding-left: 0px;
+  }
+
+  #head{
+    background-color: rgba(106, 142, 35, 0.283);
+    color: darkgray;
+    height: 70px;
+    display: flex;
+    align-items:center ;
+    padding-left: 20px;
+    letter-spacing: 3px;
+  }
+  #head:hover{
+    cursor: pointer;
+    background-color: rgba(106, 142, 35, 0.611);
+  }
+  #head_01, #head_02, #head_03, #head_04, #head_05, #head_06, #head_07, #head_08{
+    background-color: rgba(106, 142, 35, 0.283);
+    color: darkgray;
+    height: 70px;
+    display: flex;
+    align-items:center ;
+    padding-left: 20px;
+    letter-spacing: 3px;
+  }
+  #head_01:hover,  #head_02:hover, #head_03:hover, #head_04:hover, #head_05:hover, #head_06:hover, #head_07:hover, #head_08:hover{
+    cursor: pointer;
+    background-color: rgba(106, 142, 35, 0.611);
+  }
+
+  .speisekarte_img{
+    
+    height: 150px;
+    
+    overflow: scroll;
+  }
+
+  
+
+  .speisekarte_header{
+    color: rgba(223, 132, 5, 0.939);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 6px;
+    font-weight: bold;
+  }
+
+/* ------------------------------- */
+
+@media (max-width: 576px) {
+  .custom-font{
+    font-size: 17px !important; /* Set the smaller font size for smaller screens */
+    color: tomato;
+  }
+  
+}
+@media (max-width: 576px) {
+    .fs{
+      font-size: 40px !important; /* Set the smaller font size for smaller screens */
+    }
+  }

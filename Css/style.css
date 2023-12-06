@@ -1,0 +1,103 @@
+/* .container a{
+    color: rgb(224, 4, 4);
+} */
+body{
+    letter-spacing: 1.5px;
+}
+
+.conatiner_speisekarte{
+    margin-top: 150px;
+    margin-bottom: 350px;
+}
+
+.bg_image{
+    background: linear-gradient(#00000083, #00000083), url(../images/backgroung_speisekarte.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+  }
+  .table-responsive {
+    overflow-x: auto;
+  }
+
+  .line{
+    color: white;
+    background-color: white;
+  }
+.r-background{
+    background: linear-gradient(#00000083, #00000083), url(../images/speisekarte.jpg);
+    background-position: center;                    
+    background-repeat: no-repeat;                   
+    background-size: cover; 
+    background-attachment: fixed;
+            
+}
+
+
+.btn{
+    margin-top: 200px;
+    height: 80px;
+    border-radius: 15px!important;
+    font-size: 30px !important;
+    letter-spacing: 3px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.ext-style{
+    color: #ffffff;
+}
+
+.navbar-nav{
+    --bs-scroll-height: 100px;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    background-color: #b1662f;
+    border-radius: 4px;
+}
+.navbar ul{
+    overflow: auto;
+    display: flex;
+    align-items: center;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 5px 20px;
+    letter-spacing: 1.5px;
+    
+}
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    
+
+}
+.inner-nav{
+    position: absolute;
+    right: 20px;
+}
+.logo{
+    font-size: 40px;
+    color: violet;
+}
+
+
+ */

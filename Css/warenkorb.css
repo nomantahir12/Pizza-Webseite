@@ -1,0 +1,44 @@
+.fa-cart-shopping{
+    color: rgb(35, 35, 35);
+    margin-top: 14px;    
+}
+.btn-kasse{
+    font-size: 15px !important;
+    height: 55px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+
+.cart-header{
+    color: yellowgreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .bottom-line{
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+.btn-delete{
+    font-size: 12px !important;
+    height: 27px;
+    font-weight: bold;
+    margin-top: 0px;
+    
+}
+
+.table-outer-div{
+    margin-bottom: 250px;
+}
+
+.inner-div{
+    padding: 15px;
+}
+
+
+

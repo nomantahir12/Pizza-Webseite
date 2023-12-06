@@ -1,0 +1,41 @@
+.willkommen-header{
+    color: orange;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.willkommen-para {
+    color: black;
+    margin-top: 10px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+
+.willkommen-cont {
+    margin-top: 160px;
+    margin-bottom: -113px;
+    background-color: rgba(245, 245, 245, 0.539);
+    padding: 20px;
+    
+    
+}
+
+.zehn-prozent{
+    color: brown;
+    font-size: 30px;
+}
+
+/* Blink the 10% */
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .blinking {
+    animation: blink 1s infinite;
+  }
+
+/* Blink the 10%  end*/

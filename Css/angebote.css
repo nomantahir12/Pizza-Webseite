@@ -1,0 +1,53 @@
+.angebote-wrapper {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.angebote-category-01 {
+    border: 2px solid gray;
+    border-radius: 16px;
+    width: 800px;
+    padding: 12px 20px 0px 20px;
+
+}
+
+.angebote-category-02 {
+    border: 2px solid gray;
+    border-radius: 16px;
+    width: 800px;
+    margin-top: 20px;
+    padding: 12px 20px 0px 20px;
+}
+
+.angebote-category-01 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.angebote-category-01 h6 {
+    display: flex;
+    justify-content: center;
+}
+
+.angebote-category-02 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.angebote-price {
+    float: right;
+}
+
+.angebot-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: #ffc107;
+}
+
+.outer-angebot-container {
+    margin-top: 200px;
+}
